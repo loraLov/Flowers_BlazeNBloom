@@ -1,0 +1,52 @@
+.termsHeader{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.termsHead{
+    color: black;
+    text-transform: uppercase;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+     font-style: normal;
+     font-size: 40px;
+     margin-top: 10px;
+
+}
+.termstext{
+    display: flex;
+     justify-content: center;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+     font-style: normal;
+     font-size: 20px;
+     padding: 30px;
+     
+}
+.termsContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+.cond_head{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+     font-style: normal;
+     font-size: 22px;
+}
+.term_one{
+    margin-top: 20px;
+}
+.rule{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+     font-style: normal;
+     font-size: 20px;
+}

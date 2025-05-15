@@ -1,0 +1,40 @@
+.rev_header{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.header_rev{
+    color: black;
+    text-transform: uppercase;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+     font-style: normal;
+     font-size: 40px;
+     margin-top: 20px;
+     margin-bottom: 30px;
+}
+.rev_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.rev_mes{
+    width: 300px;
+    padding: 15px;
+}
+.rev_customer{
+    font-family: "Style Script", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+}
+.customerMes{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+     font-style: normal;
+     font-size: 16px;
+}

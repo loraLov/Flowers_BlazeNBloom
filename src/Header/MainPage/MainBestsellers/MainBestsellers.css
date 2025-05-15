@@ -1,0 +1,84 @@
+.bestHeader{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 30px;
+}
+.bestText{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+     font-style: normal;
+     font-size: 40px;
+}
+.bestText:hover{
+    color: #D12E77;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.descr{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+.bestPictures{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+   
+}
+.picture{
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+    background: #F0EBE3;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.picture:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.15);
+
+}
+.bestImg{
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+.bestName{
+    font-family: "Style Script", cursive;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+}
+.bestPrice{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+}
+.bestAdd{
+    margin-top: 10px;
+    padding: 10px;
+    background-color:#F5D6D3 ;
+    color: #D12E77 ;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 10px;
+    border:1px solid #D12E77;  ;
+    cursor: pointer;
+}
+.bestAdd:hover{
+    background-color: #D12E77;
+    color: #F5D6D3;
+}

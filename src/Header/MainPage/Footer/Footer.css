@@ -1,0 +1,59 @@
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #D1B8A3 ;
+    padding: 30px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+     font-style: normal;
+     font-size: 16px;
+     
+}
+.delivery_container{
+    width: 400px;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+     font-style: normal;
+     font-size: 16px;
+}
+.del_message{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer_logo{
+    width:400px;
+} 
+.contact_head{
+    font-size: 20px;
+    font-weight: 450;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.email{
+    color: black;
+    cursor:pointer;
+}
+.email:hover{
+    color:#D12E77;
+}
+.picIcon{
+    margin-left: 18px;
+    cursor: pointer;
+}
+.phone{
+    margin-bottom: 16px;
+}
+
+.hours_del{
+    margin-bottom: 8px;
+}

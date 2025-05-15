@@ -1,0 +1,43 @@
+.mainButtons{
+    display: flex;
+    justify-content: center;
+}
+.mainBtn{
+    padding: 14px;
+    border: none;
+    margin: 30px;
+    border-radius: 10px;
+    background-color: #A9B2A6;
+    text-transform: uppercase;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    cursor:pointer;
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+}
+.mainBtn:hover{
+    background-color: #B9B7A7;
+}
+.orderBtn{
+    padding: 14px;
+    border: none;
+    margin: 30px;
+    border-radius: 10px;
+    background-color: #F5D6D3;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: uppercase;
+    cursor:pointer;
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+}
+.orderBtn:hover{
+    background-color: #D12E77;
+    color:#F5D6D3 ;
+}
