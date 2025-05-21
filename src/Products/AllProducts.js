@@ -5,7 +5,7 @@ import './Bestsellers.css';
 import { useCart } from "../CartContext";
 
 function AllProducts(){
-    const [products, setProducts] = useState(data);
+    const [products] = useState(data);
     const { addToCart } = useCart();
 
     return(

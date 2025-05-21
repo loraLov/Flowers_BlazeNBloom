@@ -108,3 +108,95 @@
     background-color: #D12E77;
     color: #F5D6D3;
 }
+
+
+/* Планшеты (до 1024px) */
+@media screen and (max-width: 1024px) {
+    .bestPictures {
+      justify-content: space-between;
+      gap: 16px;
+    }
+  
+    .picture {
+      width: 48%;
+      margin-bottom: 30px;
+      padding: 12px;
+    }
+  
+    .bestImg {
+      width: 100%;
+      height: auto;
+    }
+  
+    .descrBest {
+      font-size: 14px;
+      width: 100%;
+    }
+  
+    .bestName {
+      font-size: 22px;
+    }
+  
+    .bestPrice {
+      font-size: 16px;
+    }
+  
+    .bestAdd {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .descr {
+      font-size: 17px;
+    }
+  
+    .header_best {
+      font-size: 30px;
+    }
+  }
+  
+  /* Мобильные (до 768px, включая iPhone SE) */
+  @media screen and (max-width: 768px) {
+    .bestPictures {
+      justify-content: space-between;
+      gap: 10px;
+    }
+  
+    .picture {
+      width: 48%;
+      margin-bottom: 25px;
+      padding: 10px;
+    }
+  
+    .descrBest {
+      font-size: 13px;
+    }
+  
+    .bestName {
+      font-size: 20px;
+    }
+  
+    .bestPrice {
+      font-size: 15px;
+    }
+  
+    .bestAdd {
+      font-size: 13px;
+      padding: 7px;
+    }
+  
+    .descr {
+      font-size: 15px;
+      text-align: center;
+    }
+  
+    .header_best {
+      font-size: 24px;
+      text-align: center;
+    }
+  
+    .description {
+      padding: 0 15px;
+    }
+  }
+  
