@@ -1,0 +1,124 @@
+.checkout-container {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: #fff5f7;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+  }
+  .checkout-title {
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #d63384; 
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .checkout-subtitle {
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .checkout-form label {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 16px;
+  }
+  
+  .checkout-form input,
+  .checkout-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-top: 5px;
+  }
+  
+  .checkout-items {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .checkout-items li {
+    margin: 6px 0;
+    list-style-type: none;
+     padding-left: 0; 
+  }
+  
+  .total-checkout {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .payment-instructions {
+    background: #fff9f4;
+    padding: 20px;
+    border: 1px dashed #e0b07e;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  .checkbox-label {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .checkbox-label input {
+    margin-right: 10px;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 14px;
+    background-color: #d63384;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #bf2b72;
+  }
+  
+  
+  .confirmation {
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .confirmation h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+strong{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+  
+  
+  
+  

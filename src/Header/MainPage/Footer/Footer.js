@@ -21,16 +21,50 @@ function Footer(){
             </p>
         </div>
 
+        <div className='contact' >
+            <h4 className='contact_head'>How to Place an Order</h4>
+            <p>
+                <strong>You can place your order through:</strong>
+            </p>
+            <ul>
+                <li>Instagram Direct Message:
+                <a href="https://www.instagram.com/floral_storyteller/" target="_blank" rel="noopener noreferrer">
+                <img className='picIcon'  width="30" height="30" src="https://img.icons8.com/fluency-systems-regular/48/instagram-new--v1.png" alt="instagram-new--v1"/>
+                </a>
+                </li>
+
+                <li>
+                WhatsApp:
+                <a href="https://wa.me/5512219018?text=Hi!%20I'd like %20to order%20 a bouquet." 
+                target="_blank" rel="noopener noreferrer">
+                <img className='picIcon'  width="30" height="30" src="https://img.icons8.com/ios/50/whatsapp--v1.png" alt="whatsapp--v1"/>
+                </a>
+                </li>
+
+                <li>Our website (just add items to your cart and check out!)</li>
+            </ul>
+            <p>
+                <strong>Payment methods:</strong>
+            </p>
+            <p>We currently accept payments via Zelle or Venmo.</p>
+            <p>
+             <strong>Delivery options:</strong>
+            </p>
+            <p>Choose between local delivery or self pick-up — whichever is more convenient for you.</p>
+        </div>
+
            <div className='delivery_container'> 
             <h4 className='contact_head'>Delivery</h4>
             <p className='del_message'> We deliver flower arrangements across North Jersey. Looking for delivery somewhere else? Just reach out — we’re happy to help!</p>
-            <p className='hours_del'>Delivery Hours:</p>
+            <p className='hours_del'>
+                <strong>Delivery Hours:</strong>
+            </p>
             <p className='hours_del'>Monday - Friday: 9.00am - 6.00pm</p>
             <p className='hours_del'>Saturday: 10.00am - 8.00pm</p>
             <p className='hours_del'>Sunday: day off</p>
            </div>
            <div className='footer_logo'>
-            <img src = {logo} width = '400px' alt='logo'/>
+            <img src = {logo} width = '350px' alt='logo'/>
            </div>
         </div>
     )

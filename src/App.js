@@ -20,6 +20,7 @@ import CustomBouquets from "./Products/CustomBouquets";
 import WowCollection from "./Products/WowCollection";
 import BasketsBoxes from "./Products/BasketsBoxes";
 import MainHeader from "./MainHeader";
+import Checkout from "./Checkout/Checkout";
 
 
 
@@ -35,6 +36,7 @@ function App(){
            <Route path = '/contact' element = {<Contact/>}/>
            <Route path = '/delivery'element = {<Order/>}/>
            <Route path = '/cart' element ={<Cart/>}/>
+           <Route path = '/checkout' element = {<Checkout/>}/>
 
            <Route path = '/catalog/all products' element = {<AllProducts/>}/>
            <Route path = '/catalog/bestsellers' element = {<Bestsellers/>}/>

@@ -50,3 +50,20 @@
      font-style: normal;
      font-size: 20px;
 }
+.place_order{
+    display: flex;
+    flex-direction: column;
+}
+.social_media{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+     font-style: normal;
+     font-size: 20px;
+     width: 400px;
+     padding: 20px;
+}
+.social_media_main{
+    display: flex;
+    justify-content: space-around;
+}

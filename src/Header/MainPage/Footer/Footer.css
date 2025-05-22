@@ -2,38 +2,40 @@
     display: flex;
     justify-content: space-between;
     background-color: #D1B8A3 ;
-    padding: 30px;
+    padding: 40px;
 }
 
 .contact{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 400px;
+    width: 350px;
     font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
      font-style: normal;
      font-size: 16px;
+     padding: 20px;
      
 }
 .delivery_container{
-    width: 400px;
+    width: 300px;
     font-family: "Urbanist", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
      font-style: normal;
      font-size: 16px;
+     padding: 20px;
 }
 .del_message{
     text-align: center;
     margin-bottom: 20px;
 }
 .footer_logo{
-    width:400px;
+    width:300px;
 } 
 .contact_head{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 450;
     text-transform: uppercase;
     text-align: center;
@@ -56,4 +58,8 @@
 
 .hours_del{
     margin-bottom: 8px;
+}
+p,li{
+    margin-bottom: 8px;
+    
 }

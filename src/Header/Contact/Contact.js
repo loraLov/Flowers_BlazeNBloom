@@ -36,7 +36,9 @@ function Contact() {
                    <div className='delivery_container'> 
                    <h4 className='contact_name'>Delivery</h4>
                    <p className='del_message'> We deliver flower arrangements across North Jersey. Looking for delivery somewhere else? Just reach out — we’re happy to help!</p>
-                   <p className='hours_del'>Delivery Hours:</p>
+                   <p className='hours_del'>
+                    <strong>Delivery Hours:</strong>
+                    </p>
                    <p className='hours_del'>Monday - Friday: 9.00am - 6.00pm</p>
                    <p className='hours_del'>Saturday: 10.00am - 8.00pm</p>
                    <p className='hours_del'>Sunday: day off</p>

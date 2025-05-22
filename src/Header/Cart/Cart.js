@@ -1,5 +1,6 @@
 import { useCart } from "../../CartContext";
 import Line from '../MainPage/Line/Line';
+import { useNavigate } from 'react-router-dom';
 import './Cart.css';
 
 function Cart() {
@@ -9,6 +10,8 @@ function Cart() {
     (total, item) => total + parseFloat(item.price) * item.quantity,
     0
   );
+  const navigate = useNavigate();
+
 
   return (
     <div>
@@ -43,7 +46,7 @@ function Cart() {
           <div style={{ marginTop: "30px" }}>
             <h2 className="total">Total: ${totalPrice.toFixed(2)}</h2>
             <div className="clearBtn">
-            <button className="cartCheckout" >Checkout</button>
+            <button className="cartCheckout" onClick={() => navigate('/checkout')} >Checkout</button>
             <button className="cartCheckout"  onClick={clearCart}>Clear Cart</button>
             </div>
           </div>
