@@ -199,7 +199,6 @@ p {
 
     .footer_logo img {
         width: 100%;
-        max-width: 280px;
         height: auto;
         display: block;
         margin: 0 auto;
@@ -237,7 +236,7 @@ p {
     }
   
     .footer_logo img {
-      max-width: 220px;
+      width: 100%;
     }
   }
   
