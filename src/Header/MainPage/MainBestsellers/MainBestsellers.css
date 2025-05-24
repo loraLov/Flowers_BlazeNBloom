@@ -146,8 +146,8 @@
       width: 200px;
     }
   
-   .bestPictures.picture:hover{
-      transform: scale(0);
+   .picture:hover{
+     
       box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     }
   
@@ -173,4 +173,49 @@
       }
       
   }
+  @media (max-width: 375px) {
+    .footer-icons {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      margin-top: 10px;
+    }
+  
+    .footer-icons img,
+    .footer-icons svg {
+      width: 24px;
+      height: 24px;
+    }
+  
+    .footer-section {
+      text-align: center;
+    }
+  
+    .footer-section h4 {
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+  
+    .footer-section a {
+      font-size: 13px;
+      display: block;
+      margin-bottom: 4px;
+      word-break: break-word;
+    }
+  }
+  @media (max-width: 768px) {
+    .picture .bestImg {
+      transition: transform 0.3s ease;
+      width: 100%;
+      height: auto;
+      max-height: 300px;
+      object-fit: cover;
+    }
+  
+    .picture:hover .bestImg {
+      transform: scale(1.1); /* Увеличение по ширине и чуть-чуть по высоте */
+    }
+  }
+  
+
   
