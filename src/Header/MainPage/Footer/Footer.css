@@ -67,6 +67,7 @@ p,li{
 */
 
 
+
 .footer_container {
     display: flex;
     flex-wrap: wrap;
@@ -102,9 +103,16 @@ p,li{
     width: 300px;
 }
 
-.footer_logo {
-    width: 300px;
-}
+
+    .footer_logo img {
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    
+
 
 .contact .contact_head {
     font-size: 25px;
@@ -135,9 +143,16 @@ li {
 }
 
 .picIcon {
-    margin-left: 18px;
+    margin-left: 10px;
     cursor: pointer;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
 }
+.picIconWrapper {
+    display: inline-block;
+  }
+  
 
 .phone {
     margin-bottom: 16px;
