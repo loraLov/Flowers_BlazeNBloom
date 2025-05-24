@@ -186,7 +186,7 @@ p {
     .contact,
     .delivery_container,
     .footer_logo {
-        width: 100%;
+        width: 80%;
         padding: 10px 0;
         text-align: center;
         margin-bottom: 10px;
@@ -226,9 +226,9 @@ p {
     }
   
     .picIcon {
-      width: 24px;
-      height: 24px;
-      margin-left: 6px;
+      width: 20px;
+      height: 20px;
+      margin-left: 5px;
     }
   
     .footer_logo img {
@@ -236,3 +236,5 @@ p {
     }
   }
   
+
+ 
