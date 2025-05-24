@@ -16,6 +16,10 @@ img {
   box-sizing: border-box;
 }
 
+button, a, input, textarea {
+  -webkit-tap-highlight-color: rgba(0,0,0,0); /* убираем синий подсвет */
+  outline: none;
+}
 
 html, body, #root {
   width: 100%;

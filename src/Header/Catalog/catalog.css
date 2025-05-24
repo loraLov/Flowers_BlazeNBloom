@@ -29,14 +29,6 @@
   background-color: #B9B7A7;
   font-size: 18px;
 }
-/*
-.dropButton{
-  border: none;
-  background-color: #D1B8A3;
-  font-size: 16px;
-  cursor: pointer;
-}
-*/
 
 .dropButton {
   border: none;
@@ -47,12 +39,17 @@
   font-family: "Urbanist", sans-serif;
   text-transform: uppercase;
   -webkit-tap-highlight-color: transparent;
-  /* Чтобы убрать синий фон на iOS/Android */
   -webkit-appearance: none;
   appearance: none;
   outline: none;
   color: black;
+
+  /* Новое: отключает blue glow на iOS */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
+
 
 .dropButton:focus,
 .dropButton:active {

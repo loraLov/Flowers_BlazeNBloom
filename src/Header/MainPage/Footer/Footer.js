@@ -30,23 +30,23 @@ function Footer(){
             <p>
                 <strong>You can place your order through:</strong>
             </p>
-            <ul>
-                <li>Instagram Direct Message:
+            <div className='ord'>
+                <p >Instagram:
                 <a href="https://www.instagram.com/floral_storyteller/" target="_blank" rel="noopener noreferrer">
                 <img className='picIcon'  width="30" height="30" src="https://img.icons8.com/fluency-systems-regular/48/instagram-new--v1.png" alt="instagram-new--v1"/>
                 </a>
-                </li>
+                </p>
 
-                <li>
+                <p>
                 WhatsApp:
                 <a href="https://wa.me/5512219018?text=Hi!%20I'd like %20to order%20 a bouquet." 
                 target="_blank" rel="noopener noreferrer">
                 <img className='picIcon'  width="30" height="30" src="https://img.icons8.com/ios/50/whatsapp--v1.png" alt="whatsapp--v1"/>
                 </a>
-                </li>
+                </p>
 
-                <li>Our website (just add items to your cart and check out!)</li>
-            </ul>
+                <p>Our website (just add items to your cart and check out!)</p>
+            </div>
             <p>
                 <strong>Payment methods:</strong>
             </p>
