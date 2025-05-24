@@ -212,3 +212,27 @@ p {
     }
 }
 
+@media screen and (max-width: 375px) {
+    .contact,
+    .delivery_container,
+    .footer_logo {
+      padding: 10px 5px;
+      font-size: 14px;
+    }
+  
+    .contact .contact_head,
+    .delivery_name {
+      font-size: 18px;
+    }
+  
+    .picIcon {
+      width: 24px;
+      height: 24px;
+      margin-left: 6px;
+    }
+  
+    .footer_logo img {
+      max-width: 220px;
+    }
+  }
+  

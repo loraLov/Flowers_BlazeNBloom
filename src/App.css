@@ -5,6 +5,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 
 html, body, #root {
   width: 100%;
