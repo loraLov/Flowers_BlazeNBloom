@@ -1,4 +1,4 @@
-.whyHeader{
+/*.whyHeader{
     display: flex;
     justify-content: center;
     margin-top: 200px;
@@ -43,3 +43,114 @@
     margin-top: 20px;
     
 }
+*/
+
+.whyHeader {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  .whyHead {
+    color: black;
+    text-transform: uppercase;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    margin: 0;
+  }
+  
+  .container_why_main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 40px 0;
+    gap: 20px;
+  }
+  
+  .container_why {
+    flex: 1 1 16%; /* по 6 блоков в ряд (100 / 6 = ~16.6%) */
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .block_why {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .whyBlockHead {
+    font-family: "Urbanist", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+  }
+  
+  .whyBlocktext {
+    font-family: "Urbanist", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0;
+    line-height: 1.4;
+  }
+  
+  /* ✅ Планшеты */
+  @media screen and (max-width: 1024px) {
+    .container_why_main {
+      justify-content: center;
+      gap: 30px;
+    }
+  
+    .container_why {
+      flex: 1 1 40%;
+      max-width: 250px;
+    }
+  }
+  
+  /* ✅ Мобильные */
+  @media screen and (max-width: 768px) {
+    .whyHead {
+      font-size: 28px;
+    }
+  
+    .container_why_main {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 20px 0;
+      gap: 20px;
+    }
+  
+    .container_why {
+      max-width: 90%;
+    }
+  
+    .block_why {
+      padding: 5px;
+    }
+  
+    .whyBlockHead {
+      font-size: 16px;
+      margin-top: 6px;
+      margin-bottom: 4px;
+    }
+  
+    .whyBlocktext {
+      font-size: 14px;
+      line-height: 1.3;
+    }
+  
+    .block_why img {
+      width: 48px;
+      height: 48px;
+    }
+  }
+  
+
+

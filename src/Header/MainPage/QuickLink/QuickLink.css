@@ -21,4 +21,18 @@
     cursor: pointer;
   }
   
+  @media (max-width: 768px) {
+    .social-icon img {
+      width: 24px !important;
+      height: 24px !important;
+    }
+  
+    .fixed-links {
+      padding: 3px;
+    }
+  
+    .social-icon {
+      margin-left: 8px;
+    }
+  }
   

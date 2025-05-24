@@ -1,4 +1,4 @@
-.footer_container{
+/*.footer_container{
     display: flex;
     justify-content: space-between;
     background-color: #D1B8A3 ;
@@ -63,3 +63,137 @@ p,li{
     margin-bottom: 8px;
     
 }
+
+*/
+
+
+.footer_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #D1B8A3;
+    padding: 40px;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.contact,
+.footer_logo {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.contact {
+    width: 350px;
+}
+.delivery_name{
+    font-size: 25px;
+    font-weight: 450;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.delivery_container {
+    width: 300px;
+}
+
+.footer_logo {
+    width: 300px;
+}
+
+.contact .contact_head {
+    font-size: 25px;
+    font-weight: 450;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Убираем маркеры списка */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0 0 8px 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.email {
+    color: black;
+    cursor: pointer;
+}
+
+.email:hover {
+    color: #D12E77;
+}
+
+.picIcon {
+    margin-left: 18px;
+    cursor: pointer;
+}
+
+.phone {
+    margin-bottom: 16px;
+}
+
+.hours_del {
+    margin-bottom: 8px;
+}
+
+p {
+    margin-bottom: 8px;
+}
+
+/* Планшеты: 2 колонки */
+@media screen and (max-width: 1024px) {
+    .contact,
+    .delivery_container,
+    .footer_logo {
+        width: calc(50% - 40px);
+    }
+}
+
+/* Мобильные устройства: 1 колонка */
+@media screen and (max-width: 768px) {
+    .footer_container {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 20px;
+    }
+
+    .contact,
+    .delivery_container,
+    .footer_logo {
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .footer_logo img {
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    .delivery_name{
+        font-size: 20px;
+    }
+
+    .picIcon {
+        margin-left: 10px;
+    }
+
+    .contact .contact_head {
+        font-size: 20px; /* адаптирован под мобильные */
+    }
+}
+

@@ -5,7 +5,7 @@ function Footer(){
     return(
         <div className='footer_container'>
            <div className='contact' >
-            <h4 className='contact_head'>Contact us</h4>
+            <p className='contact_head'>Contact us</p>
             <p className='phone'>phone: 551-221-9018</p>
             <p>Email: <a className='email' href="mailto:lauzhynskaya@gmail.com">lauzhynskaya@gmail.com</a></p>
             <p>Find more floral inspiration on our Instagram page!
@@ -54,7 +54,7 @@ function Footer(){
         </div>
 
            <div className='delivery_container'> 
-            <h4 className='contact_head'>Delivery</h4>
+            <p className='delivery_name'>Delivery</p>
             <p className='del_message'> We deliver flower arrangements across North Jersey. Looking for delivery somewhere else? Just reach out — we’re happy to help!</p>
             <p className='hours_del'>
                 <strong>Delivery Hours:</strong>

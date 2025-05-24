@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useCart } from '../CartContext';
 import './Checkout.css';
 import Line from '../Header/MainPage/Line/Line';
+import venmo from './venmo.jpeg';
 
 function Checkout() {
   const { cartItems, clearCart } = useCart();
@@ -192,10 +193,17 @@ function Checkout() {
             Please complete payment via <strong>Zelle</strong> or{' '}
             <strong>Venmo</strong> before order processing begins.
           </p>
+          <div className='venmo'>
           <p>
-            <strong>Zelle:</strong> lauzhynskaya@gmail.com<br />
-            <strong>Venmo:</strong> lauzhynskaya@gmail.com
+            <strong>Scan to pay with Venmo: </strong>
           </p>
+            <img src = {venmo} width = '350px' alt = 'pay with venmo'/>
+          </div>
+          <div className='venmo'>
+          <p>
+            <strong>Zelle:</strong> lauzhynskaya@gmail.com
+        </p>
+        </div>
           <p>
             <strong>Make sure to include your name in the payment note.</strong>
         </p>

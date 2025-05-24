@@ -13,6 +13,8 @@
   font-family: "Urbanist", sans-serif;
   font-size: 15px;
   width: 280px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Лёгкая тень */
+  border-radius: 6px; /* Можно, чтобы выглядело мягче */
 }
 
 .dropdown a {
@@ -32,4 +34,26 @@
   background-color: #D1B8A3;
   font-size: 16px;
   cursor: pointer;
+}
+
+
+@media all and (max-width: 768px) {
+  .dropdown {
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    width: 240px;
+    padding: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Лёгкая тень */
+    border-radius: 6px; /* Можно, чтобы выглядело мягче */
+  }
+
+  .dropdown a {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .dropdown a:hover {
+    font-size: 15px;
+  }
 }

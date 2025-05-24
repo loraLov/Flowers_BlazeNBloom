@@ -41,3 +41,28 @@
     background-color: #D12E77;
     color:#F5D6D3 ;
 }
+
+@media (max-width: 1024px) {
+    .mainButtons {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 14px;
+      margin-bottom: 14px;
+    }
+  
+    .mainButtons .mainBtn,
+    .mainButtons .orderBtn {
+      margin: 5px;
+      padding: 10px;
+      font-size: 12px;
+      flex: 1 1 42%;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .mainButtons {
+        display: none; /* <-- скрываем всю панель кнопок на мобилке */
+      }
+    }

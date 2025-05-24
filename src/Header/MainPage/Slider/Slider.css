@@ -57,3 +57,39 @@
     opacity: 1;
   }
  
+
+  @media (max-width: 1024px) {
+    .slider {
+      height: 500px;
+    }
+  
+    h2 {
+      font-size: 60px;
+      margin-top: 80px;
+    }
+  
+    .sale {
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .slider {
+      height: 360px;
+    }
+  
+    .slide-caption {
+      justify-content: center;
+      padding: 0 10px;
+    }
+  
+    h2 {
+      font-size: 40px;
+      margin-top: 40px;
+    }
+  
+    .sale {
+      font-size: 14px;
+    }
+  }
+  

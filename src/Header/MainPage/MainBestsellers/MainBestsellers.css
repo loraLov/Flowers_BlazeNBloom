@@ -4,7 +4,7 @@
     padding: 30px;
     margin-top: 30px;
 }
-.bestText{
+.bestHeader .bestText {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
@@ -58,6 +58,7 @@
     font-weight: 200;
     font-style: normal;
     font-size: 30px;
+    margin-top: 20px;
 }
 .bestPrice{
     font-family: "Urbanist", sans-serif;
@@ -82,3 +83,94 @@
     background-color: #D12E77;
     color: #F5D6D3;
 }
+
+
+.bestPictures {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Улучшаем карточки */
+  .picture {
+    background: #F0EBE3;
+    border-radius: 16px;
+    padding: 16px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+  
+  .picture:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  }
+  
+  .bestImg {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Планшеты — 4 карточки */
+  @media (max-width: 1024px) {
+    .bestPictures {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  
+    .picture:hover {
+      transform: scale(0.8);
+    }
+  }
+  
+  /* Мобильные — 2 карточки */
+  @media (max-width: 768px) {
+    .bestPictures {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+      padding: 15px;
+    }
+  
+    .picture {
+      padding: 8px;
+      border-radius: 12px;
+    }
+  
+    .picture .bestImg {
+      height: 320px;
+      width: 220px;
+    }
+  
+    .picture:hover {
+      transform: scale(0.5);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+  
+    .picture .bestName {
+      font-size: 24px;
+      margin-top: 10px;
+    }
+  
+    .bestPrice {
+      font-size: 16px;
+    }
+  
+    .bestAdd {
+      font-size: 14px;
+      padding: 8px;
+    }
+
+    .bestHeader .bestText {
+        font-size: 28px;
+      }
+      .description .descr{
+        font-size: 16px;
+      }
+      
+  }
+  

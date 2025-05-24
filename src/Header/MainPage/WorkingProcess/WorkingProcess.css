@@ -1,4 +1,4 @@
-.headerWorking{
+/*.headerWorking{
     display: flex;
     justify-content: center;
     padding: 0px;
@@ -60,3 +60,112 @@
     font-style: normal;
     font-size: 20px;
  }
+
+ */
+
+
+ .headerWorking {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+  margin-top: 20px; /* или меньше */
+}
+.textWorking {
+  margin: 0;
+  color: black;
+  text-transform: uppercase;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+
+.working_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 50px 20px;
+  flex-wrap: wrap;
+}
+
+.image-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.image-layout img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.image-layout img:hover {
+  transform: scale(1.08);
+  z-index: 1;
+}
+
+.txtWorking .working {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 70px;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.working {
+  margin: 0;
+}
+
+/* ✅ Планшеты */
+@media screen and (max-width: 1024px) {
+  .working_container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .txtWorking {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+}
+
+/* ✅ Мобильные устройства */
+@media screen and (max-width: 768px) {
+  .textWorking {
+    font-size: 28px;
+  }
+
+  .image-layout {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .txtWorking .working{
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 0 15px;
+  }
+
+  .image-layout img {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    top: 0;
+    left: 0;
+  }
+}
