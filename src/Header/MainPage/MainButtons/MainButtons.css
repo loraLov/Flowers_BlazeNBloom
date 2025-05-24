@@ -3,7 +3,7 @@
     justify-content: center;
 }
 .mainBtn{
-    padding: 14px;
+    padding: 10px;
     border: none;
     margin: 30px;
     border-radius: 10px;
@@ -17,12 +17,14 @@
     text-decoration: none;
     font-size: 13px;
     color: black;
+    width: 180px;
+    text-align: center;
 }
 .mainBtn:hover{
     background-color: #B9B7A7;
 }
 .orderBtn{
-    padding: 14px;
+    padding: 10px;
     border: none;
     margin: 30px;
     border-radius: 10px;
@@ -36,6 +38,8 @@
     text-decoration: none;
     font-size: 13px;
     color: black;
+    width: 180px;
+    text-align: center;
 }
 .orderBtn:hover{
     background-color: #D12E77;

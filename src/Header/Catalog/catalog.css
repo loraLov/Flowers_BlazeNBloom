@@ -29,11 +29,36 @@
   background-color: #B9B7A7;
   font-size: 18px;
 }
+/*
 .dropButton{
   border: none;
   background-color: #D1B8A3;
   font-size: 16px;
   cursor: pointer;
+}
+*/
+
+.dropButton {
+  border: none;
+  background-color: #D1B8A3;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px 16px;
+  font-family: "Urbanist", sans-serif;
+  text-transform: uppercase;
+  -webkit-tap-highlight-color: transparent;
+  /* Чтобы убрать синий фон на iOS/Android */
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+  color: black;
+}
+
+.dropButton:focus,
+.dropButton:active {
+  outline: none;
+  background-color: #D1B8A3; /* оставляем тот же цвет, чтобы не было блика */
+  color: black;
 }
 
 

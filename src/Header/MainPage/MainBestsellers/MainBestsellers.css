@@ -136,18 +136,18 @@
       padding: 15px;
     }
   
-    .picture {
-      padding: 8px;
+    .bestPictures .picture {
+      padding: 10px;
       border-radius: 12px;
     }
   
     .picture .bestImg {
-      height: 320px;
-      width: 220px;
+      height: 300px;
+      width: 190px;
     }
   
-    .picture:hover {
-      transform: scale(0.5);
+   .bestPictures.picture:hover{
+      transform: scale(0);
       box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     }
   
