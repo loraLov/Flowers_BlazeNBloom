@@ -123,6 +123,98 @@ strong{
 }
 
   
+  /* Планшеты: до 1024px */
+@media (max-width: 1024px) {
+    .checkout-container {
+      padding: 30px 20px;
+      margin: 40px auto;
+    }
+  
+    .checkout-title {
+      font-size: 26px;
+    }
+  
+    .checkout-subtitle {
+      font-size: 16px;
+    }
+  
+    .checkout-form label {
+      font-size: 15px;
+    }
+  
+    .total-checkout {
+      font-size: 1.1rem;
+    }
+  
+    .payment-instructions {
+      font-size: 15px;
+    }
+  
+    .submit-button {
+      font-size: 15px;
+      padding: 12px;
+    }
+  
+    strong {
+      font-size: 16px;
+    }
+  }
+  
+  /* Мобильные устройства: до 768px */
+  @media (max-width: 768px) {
+    .checkout-container {
+      padding: 30px;
+      margin: 20px;
+      border-radius: 8px;
+    }
+  
+    .checkout-title {
+      font-size: 22px;
+    }
+  
+    .checkout-subtitle {
+      font-size: 15px;
+    }
+  
+    .checkout-form label {
+      font-size: 14px;
+      margin-bottom: 16px;
+    }
+  
+    .checkout-form input,
+    .checkout-form textarea {
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    .total-checkout {
+      font-size: 1rem;
+    }
+  
+    .payment-instructions {
+      font-size: 14px;
+      padding: 16px;
+    }
+  
+    .checkbox-label {
+      font-size: 15px;
+      flex-wrap: wrap;
+    }
+  
+    .submit-button {
+      font-size: 14px;
+      padding: 12px;
+    }
+  
+    .venmo img {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    strong {
+      font-size: 15px;
+    }
+  }
   
   
   

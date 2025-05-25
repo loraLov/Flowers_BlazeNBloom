@@ -67,3 +67,84 @@
     display: flex;
     justify-content: space-around;
 }
+
+/* Планшеты (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .termsHead {
+      font-size: 32px;
+    }
+  
+    .termstext {
+      font-size: 18px;
+      padding: 20px;
+    }
+  
+    .termsContainer {
+      margin-left: 40px;
+      margin-right: 20px;
+    }
+  
+    .cond_head {
+      font-size: 20px;
+    }
+  
+    .rule {
+      font-size: 18px;
+    }
+  
+    .social_media_main {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .social_media {
+      width: 90%;
+      font-size: 18px;
+    }
+  }
+  
+  /* Мобильные телефоны (max-width: 768px) */
+  @media (max-width: 768px) {
+    .termsHead {
+      font-size: 24px;
+      text-align: center;
+    }
+  
+    .termstext {
+      font-size: 16px;
+      padding: 16px;
+      text-align: center;
+    }
+  
+    .termsContainer {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    .cond_head {
+      font-size: 18px;
+    }
+  
+    .rule {
+      font-size: 16px;
+    }
+  
+    .social_media_main {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .social_media {
+      width: 100%;
+      font-size: 16px;
+      padding: 12px;
+     margin-left: 20px;
+    }
+  
+    .picIcon {
+      width: 24px;
+      height: 24px;
+      margin-left: 8px;
+    }
+  }
+  

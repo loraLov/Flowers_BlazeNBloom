@@ -144,13 +144,18 @@
     .picture .bestImg {
       max-height: 280px;
       max-width: 200px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+
     }
   
    .picture:hover{
-     
       box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     }
   
+    .picture:hover .bestImg {
+        transform: scale(1.1); /* Увеличение по ширине и чуть-чуть по высоте */
+      }
     .picture .bestName {
       font-size: 24px;
       margin-top: 10px;
@@ -203,19 +208,7 @@
       word-break: break-word;
     }
   }
-  @media (max-width: 768px) {
-    .picture .bestImg {
-      transition: transform 0.3s ease;
-      width: 100%;
-      height: auto;
-      max-height: 300px;
-      object-fit: cover;
-    }
   
-    .picture:hover .bestImg {
-      transform: scale(1.1); /* Увеличение по ширине и чуть-чуть по высоте */
-    }
-  }
   
 
   
