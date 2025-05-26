@@ -157,6 +157,11 @@
   
   /* Мобильные (до 768px, включая iPhone SE) */
   @media screen and (max-width: 768px) {
+    .bestHeader {
+      padding: 10px 0 0 0;
+      margin-top: 10px;
+    }
+
     .bestPictures {
       justify-content: space-between;
       gap: 10px;

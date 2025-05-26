@@ -28,7 +28,6 @@ function Cart() {
           {cartItems.map((item) => (
             <div key={item.id} style={{
               display: 'flex',
-              alignItems: 'center',
               marginBottom: '20px',
               background: '#F0EBE3',
               padding: '30px',
@@ -58,3 +57,5 @@ function Cart() {
 }
 
 export default Cart;
+
+

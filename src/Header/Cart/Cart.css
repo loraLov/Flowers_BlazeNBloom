@@ -190,10 +190,9 @@
       padding: 30px 10px;
     }
   
-    /* Перестроение карточек */
+    
     .cart_header + div {
       display: flex;
-      flex-direction: column;
       padding: 0 10px;
     }
   
@@ -202,4 +201,8 @@
       align-items: center;
     }
   }
-  
+
+
+
+
+   
